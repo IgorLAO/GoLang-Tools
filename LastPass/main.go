@@ -15,7 +15,7 @@ func main()  {
 	
 	senhaLength, err := strconv.Atoi(os.Args[1])
 	if (err != nil){
-		fmt.Println("houve um erro")
+		fmt.Println("Error")
 		return
 	}
 	
